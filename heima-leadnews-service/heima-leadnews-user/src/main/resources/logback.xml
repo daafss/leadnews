@@ -35,7 +35,7 @@
     </appender>
 
 
-    <logger name="org.apache.ibatis.cache.decorators.LoggingCache" level="DEBUG" additivity="false">
+    <logger name="org.apache.ibatis.cache.decorators.LoggingCache" level="debug" additivity="false">
         <appender-ref ref="CONSOLE"/>
     </logger>
     <logger name="org.springframework.boot" level="debug"/>
